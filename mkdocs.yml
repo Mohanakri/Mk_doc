@@ -1,0 +1,50 @@
+site_name: My Cloud Docs
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: green
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+
+
+
+nav:
+  - Home: index.md
+  - AWS:
+      - Beginner: aws/beginner.md
+      - Advanced: aws/advanced.md
+  - Master_Eks:
+      - Part-1:Eks Introduction:
+          - 1.kubernetes Container Intro: Master_EKS/Part1.Eks_intro/1.K8s_Container_Intro.md
+          - 2.Eks Introduction: Master_EKS/Part1.Eks_intro/2.Eks_introduction.md
+          - 3.Building Eks Cluster: Master_EKS/Part1.Eks_intro/3.Building_Eks_Cluster.md
+          - 4.Building your app: Master_EKS/Part1.Eks_intro/4.Building_your_app.md
+          - 5.Helm charts Manage app: Master_EKS/Part1.Eks_intro/5.Helm_charts_Manage_app.md
+      - Part-2:Eks Deep Dive:
+          - 6.Securing-Accessing: Master_EKS/Part2.Eks_Deep_dive/6.Securing-Accessing.md
+          - 7.Networking: Master_EKS/Part2.Eks_Deep_dive/7.Networking.md
+          - 8.Worker Nodes: Master_EKS/Part2.Eks_Deep_dive/8.Worker_Nodes.md
+          - 9.Advanced Networking: Master_EKS/Part2.Eks_Deep_dive/9.Advanced_Networking.md
+          - 10.Upgrading Eks: Master_EKS/Part2.Eks_Deep_dive/10.Upgrading_Eks.md
+      - Part-3:Deploy Application:
+          - 11.Build Push ECR: Master_EKS/Part3.Deploying_application/11.Build_Push_ECR.md
+  - Linux:
+      - Beginner: linux/beginner.md
+      - Advanced: linux/advanced.md
+  - Setup Guide: setup.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
