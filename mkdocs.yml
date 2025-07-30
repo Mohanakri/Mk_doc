@@ -2,9 +2,24 @@ site_name: My Cloud Docs
 theme:
   name: material
   palette:
-    scheme: default
-    primary: green
-    accent: indigo
+    - scheme: default       # Light theme
+      primary: green
+      accent: indigo
+      toggle:
+        icon: material/weather-night  # Dark mode icon
+        name: Switch to dark mode
+    - scheme: slate         # Dark theme
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+
+
+#   palette:
+#     scheme: default
+#     primary: green
+#     accent: indigo
+
+
   features:
     - navigation.tabs
     #- navigation.expand
