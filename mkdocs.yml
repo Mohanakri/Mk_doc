@@ -7,7 +7,8 @@ theme:
     accent: indigo
   features:
     - navigation.tabs
-    - navigation.sections
+    #- navigation.expand
+    #- navigation.sections
     - content.code.copy
     - content.action.edit
     - search.suggest
@@ -17,9 +18,6 @@ theme:
 
 nav:
   - Home: index.md
-  - AWS:
-      - Beginner: aws/beginner.md
-      - Advanced: aws/advanced.md
   - Master_Eks:
       - Part-1:Eks Introduction:
           - 1.kubernetes Container Intro: Master_EKS/Part1.Eks_intro/1.K8s_Container_Intro.md
@@ -35,10 +33,48 @@ nav:
           - 10.Upgrading Eks: Master_EKS/Part2.Eks_Deep_dive/10.Upgrading_Eks.md
       - Part-3:Deploy Application:
           - 11.Build Push ECR: Master_EKS/Part3.Deploying_application/11.Build_Push_ECR.md
-  - Linux:
-      - Beginner: linux/beginner.md
-      - Advanced: linux/advanced.md
+  - Python:
+      - Part1:Getting Started : 
+          - 1.Python_Q&A: Python/Part1.Getting_Started/1.Python_Q&A.md
+          - 2.How_Python_Run_Programs: Python/Part1.Getting_Started/2.How_Python_Run_Programs.md
+          - 3.How_You_Run_Programs: Python/Part1.Getting_Started/3.How_You_Run_Programs.md
+      - Part2.Objects Operations : 
+          - 4.Introducing_Python_Objects: Python/Part2.Objects_Operations/4.Introducing_Python_Objects.md
+          - 5.Numbers_&_Expressions: Python/Part2.Objects_Operations/5.Numbers_&_Expressions.md
+          - 6.Python_Dynamic_Typing_Interlude: Python/Part2.Objects_Operations/6.Python_Dynamic_Typing_Interlude.md
+          - 7.String_Fundamentals: Python/Part2.Objects_Operations/7.String_Fundamentals.md
+          - 8.List_&_Directionaries: Python/Part2.Objects_Operations/8.List_&_Directionaries.md
+          - 9.Tuples_Files_Everything_Else: Python/Part2.Objects_Operations/9.Tuples_Files_Everything_Else.md
+      - Part3.Statements Syntax : 
+          - Python/Part3.Statements_Syntax/10.Python_Statements.md
+          - Python/Part3.Statements_Syntax/11.Assignments_Expressions_Prints.md
+          - Python/Part3.Statements_Syntax/12.If_Match_Selections.md
+          - Python/Part3.Statements_Syntax/13.While_for_Loops.md
+          - Python/Part3.Statements_Syntax/14.Iterations_Comprehensions.md
+          - Python/Part3.Statements_Syntax/15.Documentation_Interlude.md
+          - Python/Part3.Statements_Syntax/12.If_Match_Selections.md
+      - Part4.Functions Generators : 
+          - Python/Part4.Functions_Generators/16.Functions_Basics.md
+          - Python/Part4.Functions_Generators/17.Scopes.md
+          - Python/Part4.Functions_Generators/18.Arguments.md
+          - Python/Part4.Functions_Generators/19.Function_Odds_Ends.md
+          - Python/Part4.Functions_Generators/20.Comprehensions_Generators.md
+          - Python/Part4.Functions_Generators/21.Benchmarking.md
+          - Python/Part4.Functions_Generators/16.Functions_Basics.md
+      - Part5.Modules Packages : 
+          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+          - Python/Part5.Modules_Packages/23.Modules_coding_Basics.md
+          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+
+
+
   - Setup Guide: setup.md
+
+
+
 
 markdown_extensions:
   - admonition
