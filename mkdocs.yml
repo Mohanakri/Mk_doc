@@ -33,6 +33,20 @@ theme:
 
 nav:
   - Home: index.md
+  - AWS:
+      - Networking_VPC:
+          - 1.Vpc: Aws/1.Networking-vpc/1.vpc.md
+      - Compute:
+          - 1.Vpc: Aws/1.Networking-vpc/1.vpc.md
+      - Storage:
+          - S3:
+             - General Buckets: Aws/3.Storage/S3/1.S3_General_Buckets.md
+             - Features: Aws/3.Storage/S3/2.S3_Features.md
+             - Hands_on: Aws/3.Storage/S3/3.S3_Hands_On_1.md
+             - Hands_on_Adv: Aws/3.Storage/S3/4.S3.Hands_On_2.md
+             - Interview_Q&A: Aws/3.Storage/S3/5.Interview_Quetions.md
+ 
+
   - Master_Eks:
       - Part-1:Eks Introduction:
           - 1.kubernetes Container Intro: Master_EKS/Part1.Eks_intro/1.K8s_Container_Intro.md
