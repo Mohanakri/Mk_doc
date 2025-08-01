@@ -1,4 +1,4 @@
-site_name: My Cloud Docs
+site_name: Why For You
 theme:
   name: material
   palette:
@@ -29,32 +29,68 @@ theme:
     - search.suggest
     - search.highlight
 
-
+#
+# Mk_doc\docs\Aws\3.Storage\1.S3\1.S3_General_Buckets.md
 
 nav:
   - Home: index.md
   - AWS:
-      - Networking_VPC:
-          - 1.Vpc: Aws/1.Networking-vpc/1.vpc.md
+      - Networking:
+          - Virtual_pravite_Network: 
+             - Notes : Aws/1.Networking/1.Vpc/1.vpc.md
+             - Hands_On: Aws/1.Networking/1.Vpc/2.Hands_On.md
+             - Interview_Q&A: Aws/1.Networking/1.Vpc/3.Interview_Q&A.md
+          - Route53:
+             - Notes: Aws/1.Networking/2.Route53/1.Route53.md
+             - Hands_On: Aws/1.Networking/2.Route53/2.Hands_On.md
+             - Interview_Q&A: Aws/1.Networking/2.Route53/3.Interview_Q&A.md
+          - Cloud Front:
+             - Notes: Aws/1.Networking/3.CloudFront/1.CloudFront.md
+             - Hands_On: Aws/1.Networking/3.CloudFront/2.Hands_On.md
+             - Interview_Q&A: Aws/1.Networking/3.CloudFront/3.Interview_Q&A.md
+          - Direct_Connect:
+             - Notes: Aws/1.Networking/4.Direct_Connect/1.Direct_Connect.md
+             - Hands_On: Aws/1.Networking/4.Direct_Connect/2.Hands_On.md
+             - Interview_Q&A: Aws/1.Networking/4.Direct_Connect/3.Interview_Q&A.md
+
       - Compute:
-          - 1.Vpc: Aws/1.Networking-vpc/1.vpc.md
+          - 1.Vpc: Aws/1.NetworkingCloudFront\1.CloudFront.md
       - Storage:
           - S3:
-             - General Buckets: Aws/3.Storage/S3/1.S3_General_Buckets.md
-             - Features: Aws/3.Storage/S3/2.S3_Features.md
-             - Hands_on: Aws/3.Storage/S3/3.S3_Hands_On_1.md
-             - Hands_on_Adv: Aws/3.Storage/S3/4.S3.Hands_On_2.md
-             - Interview_Q&A: Aws/3.Storage/S3/5.Interview_Quetions.md
+             - Notes: Aws\3.Storage\1.S3\1.S3_General_Buckets.md
+             - Features: Aws/3.Storage/1.S3/2.S3_Features.md
+             - Hands_on: Aws/3.Storage/1.S3/3.S3_Hands_On_1.md
+             - Hands_on_Adv: Aws/3.Storage/1.S3/4.S3.Hands_On_2.md
+             - Interview_Q&A: Aws/3.Storage/1.S3/5.Interview_Quetions.md
+          
+          - Ebs:
+             - Notes: Aws/3.Storage/2.Ebs/1.Ebs.md
+             - Hands_On: Aws\3.Storage\2.Ebs\2.Hands_On.md
+             - Interview_Q&A: Aws\3.Storage\2.Ebs\3.Interview_Q&A.md
+          - Efs:
+             - Notes: Aws/3.Storage/3.Efs/1.Efs.md
+             - Hands_On: Aws\3.Storage\3.Efs\2.Hands_On.md
+             - Interview_Q&A: Aws\3.Storage\3.Efs\3.Interview_Q&A.md
+          - Efx:
+             - Notes: Aws/3.Storage/4.Efx/1.Efx.md
+             - Hands_On: Aws\3.Storage\4.Efx\2.Hands_On.md
+             - Interview_Q&A: Aws\3.Storage\4.Efx\3.Interview_Q&A.md
+          - Storage_gate_way:
+             - Notes: Aws\3.Storage\5.Storage_gate_way\5.Storate_gate_way.md
+
  
 
+#  Mk_doc\docs\Aws\3.Storage\5.Storage_gate_way\5.Storate_gate_way.md
+
+
   - Master_Eks:
-      - Part-1:Eks Introduction:
+      - Eks Introduction:
           - 1.kubernetes Container Intro: Master_EKS/Part1.Eks_intro/1.K8s_Container_Intro.md
           - 2.Eks Introduction: Master_EKS/Part1.Eks_intro/2.Eks_introduction.md
           - 3.Building Eks Cluster: Master_EKS/Part1.Eks_intro/3.Building_Eks_Cluster.md
           - 4.Building your app: Master_EKS/Part1.Eks_intro/4.Building_your_app.md
           - 5.Helm charts Manage app: Master_EKS/Part1.Eks_intro/5.Helm_charts_Manage_app.md
-      - Part-2:Eks Deep Dive:
+      - Eks Deep Dive:
           - 6.Securing-Accessing: Master_EKS/Part2.Eks_Deep_dive/6.Securing-Accessing.md
           - 7.Networking: Master_EKS/Part2.Eks_Deep_dive/7.Networking.md
           - 8.Worker Nodes: Master_EKS/Part2.Eks_Deep_dive/8.Worker_Nodes.md
@@ -62,6 +98,13 @@ nav:
           - 10.Upgrading Eks: Master_EKS/Part2.Eks_Deep_dive/10.Upgrading_Eks.md
       - Part-3:Deploy Application:
           - 11.Build Push ECR: Master_EKS/Part3.Deploying_application/11.Build_Push_ECR.md
+     
+      - Interview: 
+          - 1.kubernetes: Master_EKS/Interview/1.Kubernetes.md
+
+
+# Mk_doc\docs\Master_EKS\Interview\1.Kubernetes.md
+
   - Python:
       - Part1:Getting Started : 
           - 1.Python_Q&A: Python/Part1.Getting_Started/1.Python_Q&A.md
