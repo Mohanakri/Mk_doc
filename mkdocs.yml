@@ -83,7 +83,7 @@ nav:
 #  Mk_doc\docs\Aws\3.Storage\5.Storage_gate_way\5.Storate_gate_way.md
 
 
-  - Master_Eks:
+  - Eks:
       - Eks Introduction:
           - 1.kubernetes Container Intro: Master_EKS/Part1.Eks_intro/1.K8s_Container_Intro.md
           - 2.Eks Introduction: Master_EKS/Part1.Eks_intro/2.Eks_introduction.md
