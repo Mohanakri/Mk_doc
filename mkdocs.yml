@@ -103,9 +103,12 @@ nav:
           - 1.kubernetes: Master_EKS/Interview/1.Kubernetes.md
 
 
-# Mk_doc\docs\Master_EKS\Interview\1.Kubernetes.md
+# Mk_doc\docs\Python\Interview\Concept_wise\2.Comprehensions.md
 
   - Python:
+      - Interview: 
+          - 1.Data_types: Python/Interview/Concept_wise/1.int,str,list,dict,set,tuple.md
+          - 2.Comprehensions: Python/Interview/Concept_wise/2.Comprehensions.md
       - Part1:Getting Started : 
           - 1.Python_Q&A: Python/Part1.Getting_Started/1.Python_Q&A.md
           - 2.How_Python_Run_Programs: Python/Part1.Getting_Started/2.How_Python_Run_Programs.md
@@ -118,29 +121,28 @@ nav:
           - 8.List_&_Directionaries: Python/Part2.Objects_Operations/8.List_&_Directionaries.md
           - 9.Tuples_Files_Everything_Else: Python/Part2.Objects_Operations/9.Tuples_Files_Everything_Else.md
       - Part3.Statements Syntax : 
-          - Python/Part3.Statements_Syntax/10.Python_Statements.md
-          - Python/Part3.Statements_Syntax/11.Assignments_Expressions_Prints.md
-          - Python/Part3.Statements_Syntax/12.If_Match_Selections.md
-          - Python/Part3.Statements_Syntax/13.While_for_Loops.md
-          - Python/Part3.Statements_Syntax/14.Iterations_Comprehensions.md
-          - Python/Part3.Statements_Syntax/15.Documentation_Interlude.md
-          - Python/Part3.Statements_Syntax/12.If_Match_Selections.md
-      - Part4.Functions Generators : 
-          - Python/Part4.Functions_Generators/16.Functions_Basics.md
-          - Python/Part4.Functions_Generators/17.Scopes.md
-          - Python/Part4.Functions_Generators/18.Arguments.md
-          - Python/Part4.Functions_Generators/19.Function_Odds_Ends.md
-          - Python/Part4.Functions_Generators/20.Comprehensions_Generators.md
-          - Python/Part4.Functions_Generators/21.Benchmarking.md
-          - Python/Part4.Functions_Generators/16.Functions_Basics.md
-      - Part5.Modules Packages : 
-          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
-          - Python/Part5.Modules_Packages/23.Modules_coding_Basics.md
-          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
-          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
-          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
-          - Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+          - 10.Python_Statements: Python/Part3.Statements_Syntax/10.Python_Statements.md
+          - 11.Assignments_Expressions_Prints: Python/Part3.Statements_Syntax/11.Assignments_Expressions_Prints.md
+          - 12.If_Match_Selections: Python/Part3.Statements_Syntax/12.If_Match_Selections.md
+          - 13.While_for_Loops: Python/Part3.Statements_Syntax/13.While_for_Loops.md
+          - 14.Iterations_Comprehensions: Python/Part3.Statements_Syntax/14.Iterations_Comprehensions.md
+          - 15.Documentation_Interlude: Python/Part3.Statements_Syntax/15.Documentation_Interlude.md
 
+      - Part4.Functions Generators : 
+          - 16.Functions_Basics: Python/Part4.Functions_Generators/16.Functions_Basics.md
+          - 17.Scopes: Python/Part4.Functions_Generators/17.Scopes.md
+          - 18.Arguments: Python/Part4.Functions_Generators/18.Arguments.md
+          - 19.Function_Odds_Ends: Python/Part4.Functions_Generators/19.Function_Odds_Ends.md
+          - 20.Comprehensions_Generators: Python/Part4.Functions_Generators/20.Comprehensions_Generators.md
+          - 21.Benchmarking: Python/Part4.Functions_Generators/21.Benchmarking.md
+
+      - Part5.Modules Packages : 
+          - 22.Modules_Big_Picture: Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
+          - 23.Modules_coding_Basics: Python/Part5.Modules_Packages/23.Modules_coding_Basics.md
+          - 24.Module_Coding_Basic: Python/Part5.Modules_Packages/24.Module_Coding_Basic.md
+          - 25.Module_Packages: Mk_doc\docs\Python\Part5.Modules_Packages\25.Module_Packages.md
+
+#Mk_doc\docs\Python\Part5.Modules_Packages\24.Module_Coding_Basic.md
 
 
   - Setup Guide: setup.md
