@@ -103,10 +103,21 @@ nav:
           - 1.kubernetes: Master_EKS/Interview/1.Kubernetes.md
 
 
-# Mk_doc\docs\Python\Interview\Concept_wise\2.Comprehensions.md
+# Mk_doc\docs\sql.md
+  - Sql: 
+    - sql: sql.md
+    - sql_confusing: sql_confusing.md
+    - sql_interview: sql_interview.md
+
+#M Mk_doc\docs\Python\Interview\1.Data_types\3.Advanced_list.md
 
   - Python:
       - Interview: 
+          - Strings: Python/Interview/1.Data_types/1.String.md
+          - List: Python/Interview/1.Data_types/2.lists.md
+          - Advanced_list: Python/Interview/1.Data_types/3.Advanced_list.md
+          - Dictionary: Python/Interview/1.Data_types/4.dictionary.md
+
           - 1.Data_types: Python/Interview/Concept_wise/1.int,str,list,dict,set,tuple.md
           - 2.Comprehensions: Python/Interview/Concept_wise/2.Comprehensions.md
       - Part1:Getting Started : 
