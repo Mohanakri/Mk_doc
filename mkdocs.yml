@@ -109,10 +109,11 @@ nav:
     - sql_confusing: sql_confusing.md
     - sql_interview: sql_interview.md
 
-#M Mk_doc\docs\Python\Interview\1.Data_types\3.Advanced_list.md
+#M Mk_doc\docs\Python\Interview\data_types.md
 
   - Python:
       - Interview: 
+          - Final Data Types: Python/Interview/data_types.md
           - Strings: Python/Interview/1.Data_types/1.String.md
           - List: Python/Interview/1.Data_types/2.lists.md
           - Advanced_list: Python/Interview/1.Data_types/3.Advanced_list.md
