@@ -1,14 +1,15 @@
-keys = ['app', 'script', 'program']
-vals = [1, 3, 5]
+# WRONG - All functions remember i=4
+acts = []
+for i in range(5):
+    acts.append(lambda x: i ** x)
 
-# Method 1: Loop
-D2 = {}
-for (k, v) in zip(keys, vals): 
-    D2[k] = v
+print()
 
-# Method 2: dict constructor (preferred)
-D3 = dict(zip(keys, vals))
+#print(acts[0](2))  # Prints 16 (4**2), not 0
 
-# Method 3: Dictionary comprehension
-D4 = {k: v for (k, v) in zip(keys, vals)}
-print(D2,D3,D4,sep='\n')
+# # CORRECT - Use defaults to capture current value
+# acts = []
+# for i in range(5):
+#     acts.append(lambda x, i=i: i ** x)
+
+# print(acts[0](2))  # Prints 0 (0**2)
