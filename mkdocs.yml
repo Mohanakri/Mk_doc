@@ -172,8 +172,8 @@ nav:
       - Part5.Modules Packages : 
           - 22.Modules_Big_Picture: Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
           - 23.Modules_coding_Basics: Python/Part5.Modules_Packages/23.Modules_coding_Basics.md
-          - 24.Module_Coding_Basic: Python/Part5.Modules_Packages/24.Module_Coding_Basic.md
-          - 25.Module_Packages: Python\Part5.Modules_Packages\25.Module_Packages.md
+          - 24.Module_Packages: Python/Part5.Modules_Packages/24.Module_Packages.md
+          - 25.Module_Odds_Ends: Python\Part5.Modules_Packages\25.Module_Odds_Ends.md
 
 
       - Part6.Class Oops : 
