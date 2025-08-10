@@ -1,0 +1,16 @@
+body::before {
+    content: "Confidential - For Authorized Use Only";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    color: rgba(200, 0, 0, 0.15);
+    transform: translate(-50%, -50%) rotate(-30deg);
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+body {
+    user-select: none; /* Prevent text selection */
+}
