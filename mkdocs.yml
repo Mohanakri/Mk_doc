@@ -43,20 +43,33 @@ nav:
       - Networking:
           - Virtual_pravite_Network: 
              - Notes : Aws/1.Networking/1.Vpc/1.vpc.md
-             - Hands_On: Aws/1.Networking/1.Vpc/2.Hands_On.md
-             - Interview_Q&A: Aws/1.Networking/1.Vpc/3.Interview_Q&A.md
+             - Projects : Aws/1.Networking/1.Vpc/Projects.md
           - Route53:
              - Notes: Aws/1.Networking/2.Route53/1.Route53.md
-             - Hands_On: Aws/1.Networking/2.Route53/2.Hands_On.md
-             - Interview_Q&A: Aws/1.Networking/2.Route53/3.Interview_Q&A.md
+             - Projects : Aws/1.Networking/2.Route53/projects.md
           - Cloud Front:
              - Notes: Aws/1.Networking/3.CloudFront/1.CloudFront.md
-             - Hands_On: Aws/1.Networking/3.CloudFront/2.Hands_On.md
-             - Interview_Q&A: Aws/1.Networking/3.CloudFront/3.Interview_Q&A.md
+             - Hands_On: Aws/1.Networking/3.CloudFront/projects.md
           - Direct_Connect:
              - Notes: Aws/1.Networking/4.Direct_Connect/1.Direct_Connect.md
-             - Hands_On: Aws/1.Networking/4.Direct_Connect/2.Hands_On.md
-             - Interview_Q&A: Aws/1.Networking/4.Direct_Connect/3.Interview_Q&A.md
+             - Projects : Aws/1.Networking/4.Direct_Connect/projects.md
+      
+      - Storage:
+           - S3: 
+             - S3 General: Aws/3.Storage/1.S3/1.S3_General_Buckets.md
+             - S3 Feature: Aws/3.Storage/1.S3/2.S3_Features.md
+             - Projects: Aws/3.Storage/1.S3/projects.md
+
+
+            
+      - aws admin: 
+         - Organization: 
+             - aws Organization: Aws/5.aws-admin/1.Org-Unit/1.aws-Organization.md
+             - Projects: Aws/5.aws-admin/1.Org-Unit/projects.md
+
+
+# Mk_doc\docs\Aws\3.Storage\1.S3\1.S3_General_Buckets.md
+
 
       - Compute:
           - 1.Vpc: Aws/1.NetworkingCloudFront\1.CloudFront.md
@@ -87,11 +100,11 @@ nav:
 
 # Mk_doc\docs\Master_EKS\Docker\Notes.md
 
-  - Interview:
+#   - Interview:
       
-      - challenges: interview.md
-      - devops Q&A: interview2.md
-      - my_project: interview3.md
+#       - challenges: interview.md
+#       - devops Q&A: interview2.md
+#       - my_project: interview3.md
   - Eks:
       - Docker: Master_EKS/Docker/Notes.md
       - Eks Introduction:
@@ -120,28 +133,35 @@ nav:
       - Common_Challenges:
           - 20.Troubleshoot: Master_EKS/part5.Overcomming_common_challenges\20.TroubleShooting.md
 
-#  Mk_doc\docs\Master_EKS\Part4.Advanced_Eks_Mesh_Servcie\19.Deploying_On_Eks.md
+
 
      
       - Interview: 
           - 1.kubernetes: Master_EKS/Interview/1.Kubernetes.md
       - Open_telemetry_practise: Master_EKS/Real_world_practise/simple_eks_with_argo.md
-#  Mk_doc\docs\Master_EKS\Real_world_practise\simple_eks_with_argo.md
 
-# Mk_doc\docs\sql.md
-  - Sql: 
-    - sql: sql.md
-    - sql_confusing: sql_confusing.md
-    - sql_interview: sql_interview.md
 
-#M Mk_doc\docs\Python\Interview\Concept_wise\3.Module_packages.md
+
+
+#M Mk_doc\docs\Python\Hands_on\Beginner\1.Calculater-cli.md
 
   - Python:
-      - Interview: 
-          - Data_Types: Python/Interview/Concept_wise/1.Objects.md
-          - Function_Generators : Python/Interview/Concept_wise/2.Functions_generators.md
-          - Module_Packages: Python/Interview/Concept_wise/3.Module_packages.md
-          - copy : Python/Interview/Concept_wise/copy.md
+      - Index: Python/index.md
+      - Hands_On:
+         - Concepts wise: 
+            - Data_Types: Python/Hands_on/1.Concept_wise/1.Objects.md
+            - Function_Generators : Python/Hands_on/1.Concept_wise/2.Functions_generators.md
+            - Module_Packages: Python/Hands_on/1.Concept_wise/3.Module_packages.md
+            - copy : Python/Hands_on/1.Concept_wise/copy.md
+         - Beginner: 
+            - Index : Python/Hands_on/Beginner/0.index.md
+            - 1.Calculater : Python/Hands_on/Beginner/1.Calculater-cli.md
+            - 2.To-do-list: Python/Hands_on/Beginner/2.To-do-list.md
+            - 3.weather : Python/Hands_on/Beginner/3.weather.md
+
+
+
+
       - Part1:Getting Started : 
           - 1.Python_Q&A: Python/Part1.Getting_Started/1.Python_Q&A.md
           - 2.How_Python_Run_Programs: Python/Part1.Getting_Started/2.How_Python_Run_Programs.md
@@ -173,7 +193,7 @@ nav:
           - 22.Modules_Big_Picture: Python/Part5.Modules_Packages/22.Modules_Big_Picture.md
           - 23.Modules_coding_Basics: Python/Part5.Modules_Packages/23.Modules_coding_Basics.md
           - 24.Module_Packages: Python/Part5.Modules_Packages/24.Module_Packages.md
-          - 25.Module_Odds_Ends: Python\Part5.Modules_Packages\25.Module_Odds_Ends.md
+          - 25.Module_Odds_Ends: Python\Part5.Modules_Packages\25.Module_Odds_&_Ends.md
 
 
       - Part6.Class Oops : 
@@ -184,6 +204,13 @@ nav:
           - 30.Operater_Overloading: Python/Part6.Classes_Oops/30.Operater_Overloading.md
           - 31.Designg_with_class: Python/Part6.Classes_Oops/31.Designg_with_classes.md
           - 32.Class_Odds_Ends: Python/Part6.Classes_Oops/32.Class_odds_Ends.md
+        
+
+
+
+
+
+     
 
 
 
