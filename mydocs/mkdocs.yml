@@ -1,0 +1,57 @@
+site_name: PL/SQL
+theme:
+  name: material
+  palette:
+    - scheme: default       # Light theme
+      primary: green
+      accent: indigo
+      toggle:
+        icon: material/weather-night  # Dark mode icon
+        name: Switch to dark mode
+    - scheme: slate         # Dark theme
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+
+# extra_css:
+#       - extra.css
+
+# extra_javascript:
+#        - extra.js
+
+#   palette:
+#     scheme: default
+#     primary: green
+#     accent: indigo
+
+
+  features:
+    - navigation.tabs
+    #- navigation.expand
+    #- navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+
+#
+# plsql-notes\docs\SQL_notes.md
+nav:
+  - PL-SQL:
+      - SQL_Notes : SQL_notes.md
+      - PL-SQL_Notes: PL-SQL_Notes.md
+
+
+
+
+
+  
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
