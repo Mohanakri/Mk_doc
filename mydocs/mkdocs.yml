@@ -35,11 +35,14 @@ theme:
     - search.highlight
 
 #
-# plsql-notes\docs\SQL_notes.md
+# mmydocs\docs\PL_SQL_Hands_on.md
 nav:
+  
   - PL-SQL:
-      - SQL_Notes : SQL_notes.md
-      - PL-SQL_Notes: PL-SQL_Notes.md
+      - index : index.md
+      - sql_hands_on : sql_hands_on.md
+      - PL_SQL_Hands_on : PL_SQL_Hands_on.md
+
 
 
 
