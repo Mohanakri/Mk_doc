@@ -35,12 +35,16 @@ theme:
     - search.highlight
 
 #
-# Mk_doc\docs\Aws\3.Storage\1.S3\1.S3_General_Buckets.md
+# my_docs\docs\Interview\Cheatsheeta_&_QA.md
 
 nav:
+   
+  - INterview:
+     - Referance: Interview/Cheatsheeta_&_QA.md
 
   - JavaScript_Notes:
-      - Notes: JavaScript_Q&A/Notes.md
+      - part1_fundamentals : part1_fundamentals.md
+      - part1_Objects : part1_Objects.md
           
 
 
