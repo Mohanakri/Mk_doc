@@ -1,0 +1,60 @@
+site_name: Why For You
+theme:
+  name: material
+  palette:
+    - scheme: default       # Light theme
+      primary: green
+      accent: indigo
+      toggle:
+        icon: material/weather-night  # Dark mode icon
+        name: Switch to dark mode
+    - scheme: slate         # Dark theme
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+
+# extra_css:
+#       - extra.css
+
+# extra_javascript:
+#        - extra.js
+
+#   palette:
+#     scheme: default
+#     primary: green
+#     accent: indigo
+
+
+  features:
+    - navigation.tabs
+    #- navigation.expand
+    #- navigation.sections
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+
+#
+# my_docs\docs\Interview\Cheatsheeta_&_QA.md
+
+nav:
+   
+  - Introduction:
+     - My_intro: Interview\Introduction.md
+
+  - Sql:
+      - sql_interview : Interview\sql.md
+  - PL-SQL:
+      - Plsql-Intro: Interview\pl_sql.md
+
+          
+
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
